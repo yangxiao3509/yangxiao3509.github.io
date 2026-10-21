@@ -23,7 +23,7 @@ repository               : "yangxiao3509/yangxiao3509.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/portrait.png"
+  avatar           : "portrait.jpg"
   name             : "Yang Xiao"
   pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
