@@ -16,34 +16,115 @@ author_profile: true
 </div>
 {% endif %}
 
-{% capture publications_content %}
+<!-- {% capture publications_content %} -->
 
 \* Equal contribution. † Corresponding author.
 
 
-<!-- 
-{% include base_path %}
+<h2>Journal Articles</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %} -->
+<ol class="publication-list">
+  <li>
+    Guocheng Lin, <strong>Yang Xiao*</strong>, Shudan Yu, Ke Yu,
+    and Jun Liu,
+    “Constrained Probabilistic Routing with RouterRL: A General
+    Packet-Level Network Simulation Framework,”
+    <em>IEEE Transactions on Network Science and Engineering</em>,
+    vol. 13, pp. 2604–2622, 2025.
+  </li>
 
+  <li>
+    <strong>Yang Xiao*</strong>, Huihan Yu, Ying Yang, Yixing Wang,
+    Jun Liu, and Nirwan Ansari,
+    “Adaptive Joint Routing and Caching in Knowledge-Defined
+    Networking: An Actor-Critic Deep Reinforcement Learning Approach,”
+    <em>IEEE Transactions on Mobile Computing</em>,
+    vol. 24, no. 5, pp. 4118–4135, 2025.
+  </li>
 
+  <li>
+    Yuqian Song, <strong>Yang Xiao</strong>, and Jun Liu*,
+    “Enabling Adaptive Optimization of Energy Efficiency and Quality
+    of Service in NR-V2X Communications via Multi-Agent Deep
+    Reinforcement Learning,”
+    <em>IEEE Internet of Things Journal</em>,
+    vol. 12, no. 4, pp. 4022–4037, 2025.
+  </li>
 
+  <li>
+    <strong>Yang Xiao*</strong>, Ying Yang, Huihan Yu, and Jun Liu,
+    “Scalable QoS-Aware Multipath Routing in Hybrid Knowledge-Defined
+    Networking with Multi-Agent Deep Reinforcement Learning,”
+    <em>IEEE Transactions on Mobile Computing</em>,
+    vol. 23, no. 11, pp. 10628–10646, 2024.
+  </li>
+
+  <li>
+    <strong>Yang Xiao</strong>, Yuqian Song, and Jun Liu*,
+    “Collaborative Multi-Agent Deep Reinforcement Learning for
+    Energy-Efficient Resource Allocation in Heterogeneous Mobile
+    Edge Computing Networks,”
+    <em>IEEE Transactions on Wireless Communications</em>,
+    vol. 23, no. 6, pp. 6653–6668, 2024.
+  </li>
+
+  <li>
+    <strong>Yang Xiao</strong>, Yuqian Song, and Jun Liu*,
+    “Multi-Agent Deep Reinforcement Learning Based Resource Allocation
+    for Ultra-Reliable Low-Latency Internet of Controllable Things,”
+    <em>IEEE Transactions on Wireless Communications</em>,
+    vol. 22, no. 8, pp. 5414–5430, 2023.
+  </li>
+
+  <li>
+    <strong>Yang Xiao</strong>, Jianxue Li, Jiawei Wu, and Jun Liu*,
+    “On Design and Implementation of Reinforcement Learning Based
+    Cognitive Routing for Autonomous Networks,”
+    <em>IEEE Communications Letters</em>,
+    vol. 27, no. 1, pp. 205–209, 2023.
+  </li>
+
+  <li>
+    <strong>Yang Xiao</strong>, Jun Liu*, Jiawei Wu, and Nirwan Ansari,
+    “Leveraging Deep Reinforcement Learning for Traffic Engineering:
+    A Survey,”
+    <em>IEEE Communications Surveys and Tutorials</em>,
+    vol. 23, no. 4, pp. 2064–2097, 2021.
+  </li>
+
+  <li>
+    Jingfei Huang, Yang Yang*, Gang He, <strong>Yang Xiao</strong>,
+    and Jun Liu,
+    “Deep Reinforcement Learning-Based Dynamic Spectrum Access
+    for D2D Communication Underlay Cellular Networks,”
+    <em>IEEE Communications Letters</em>,
+    vol. 25, no. 8, pp. 2614–2618, 2021.
+  </li>
+
+  <li>
+    <strong>Yang Xiao*</strong>, Jiawei Wu, Jianxue Li, and Jun Liu,
+    “A Dynamic Routing Algorithm Based on Deep Reinforcement Learning,”
+    <em>Information and Communications Technology and Policy</em>,
+    vol. 46, no. 9, pp. 48–54, 2020.
+  </li>
+
+  <li>
+    Jun Liu*, Yuan Tian, Yu Zhou, <strong>Yang Xiao</strong>,
+    and Nirwan Ansari,
+    “Privacy Preserving Distributed Data Mining Based on Secure
+    Multi-Party Computation,”
+    <em>Computer Communications</em>,
+    vol. 153, pp. 208–216, 2020.
+  </li>
+</ol>
+
+<style>
+  .publication-list {
+    padding-left: 1.6em;
+  }
+
+  .publication-list > li {
+    margin-bottom: 1em;
+    line-height: 1.65;
+  }
+</style>
