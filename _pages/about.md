@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yang Xiao"
+title: # "Yang Xiao"
 tab_title: "Yang Xiao"
 author_profile: true
 redirect_from: 
